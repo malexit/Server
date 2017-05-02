@@ -10,7 +10,7 @@
 using namespace sf;
 using namespace std;
 
-int _tmain()
+int main()
 {
 		//setlocale(LC_ALL, "");							// Поддержка кириллицы в консоли Windows
 	SetConsoleCP(1251);// установка кодовой страницы win-cp 1251 в поток ввода
