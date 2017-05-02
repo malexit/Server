@@ -22,6 +22,7 @@ int _tmain()
 	size_t received;	//??
 	string text = " ";
 
+
 //***********Подключение***************//
 	//cout << ip << endl;
 	//ip=IpAddress::getPublicAddress();
@@ -43,32 +44,17 @@ int _tmain()
 		if(faze==true)
 		{
 			socket1.receive(buffer, sizeof(buffer), received);
-			//socket1.receive(buffer, sizeof(buffer), received);
-			//text=buffer;
-		//	cout<<faze<<":"<<text<<endl;
-			//socket2.send(text.c_str(), text.length() + 1);
+
 			socket2.send(buffer, strlen(buffer)+1);
-			//text.clear();
-			//socket2.send(buffer, sizeof(buffer));
-			
-			//socket1.receive(packet);	
-			//socket2.send(packet);
-			//packet.clear();
+
 			faze=false;
 		}
 		else
 		{
 			socket2.receive(buffer, sizeof(buffer), received);
-			//text=buffer;
-		//	cout<<faze<<":"<<text<<endl;
-			//cout<<faze<<":"<<buffer<<endl;
-			//socket1.send(text.c_str(), text.length() + 1);
+
 			socket1.send(buffer, strlen(buffer)+1);
-			//text.clear();
-			//socket1.send(buffer, sizeof(buffer));
-			//socket2.receive(packet);
-			//socket1.send(packet);
-			//packet.clear();
+
 			faze=true;
 		}
  		    //меняет местами моё и "его" сообщение  	
