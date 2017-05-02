@@ -1,0 +1,20 @@
+﻿Построение начато 11.12.2016 10:22:39.
+     1>Проект "C:\VSP\Server\Server\Server.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\Server.unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         F:\MVS2010\VC\bin\CL.exe /c /IC:\VSP\Server\Server\SFML\include /ZI /nologo /W3 /WX- /Od /Oy- /D SFML_DYNAMIC /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Server.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Server.cpp
+         Server.cpp
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         F:\MVS2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\VSP\Server\Debug\Server.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\VSP\Server\Server\SFML\lib "sfml-network-d.lib" "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-system-d.lib" "sfml-audio-d.lib" user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Server.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\VSP\Server\Debug\Server.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\VSP\Server\Debug\Server.lib" /MACHINE:X86 Debug\Server.exe.embed.manifest.res
+         Debug\Server.obj
+         Debug\stdafx.obj
+     1>LINK : fatal error LNK1168: не удается открыть C:\VSP\Server\Debug\Server.exe для записи
+     1>Построение проекта "C:\VSP\Server\Server\Server.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:01.32
